@@ -103,7 +103,7 @@ angular.module('app.routes', [])
   })
 
   .state('juniorITTechnician', {
-    url: '/page14',
+    url: '/roi-it-technician',
     templateUrl: 'templates/juniorITTechnician.html',
     controller: 'juniorITTechnicianCtrl'
   })
@@ -130,10 +130,10 @@ angular.module('app.routes', [])
     controller: 'cMSSCtrl'
   })
 
-  .state('cMSS2', {
+  .state('tools', {
     url: '/tools',
-    templateUrl: 'templates/cMSS2.html',
-    controller: 'cMSS2Ctrl'
+    templateUrl: 'templates/tools.html',
+    controller: 'toolsCtrl'
   })
 
   .state('frameworks', {
