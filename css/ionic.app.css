@@ -9092,6 +9092,8 @@ a.button {
 a {
   text-decoration: none;
   color: #000; }
+  a.red-link {
+    color: #CC2929; }
 
 .item-divider {
   background-color: #000;
@@ -9105,3 +9107,10 @@ a {
 
 .bar-stable .button.button-clear {
   color: #fff; }
+
+blockquote {
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  border-left: 5px solid gray;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000; }
